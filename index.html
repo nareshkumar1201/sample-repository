@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>working on git</title>
+    <title>working on git cmds</title>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
 
@@ -14,41 +14,6 @@
       color:red;
   }
   </style>
-  <script>
-  $(document).ready(function(){
-     $('#btn1').on('mousedown',function(){
-          $('#p1').toggle();
-          $('h1').append('appended heading');
-          $('h1').addClass("headClass");
-          alert('mousedown event triggered');
-      });
-
-      $('#btn2').hover(function(){
-          $('#p2').toggle();
-          alert('mouseenter event');
-      },
-      function(){
-        $('#p2').toggle();
-
-       alert('mouseleave event');
-      });
-
-
-      
-
-
-
-
-
-
-    /*  $('p').on('dblclick',function(e){
-        
-          $(e.currentTarget).toggle();
-
-      });*/
-  });
-  
-  </script>
 </head>
 <body>
         <button id="btn1">para1</button>
@@ -60,5 +25,7 @@
     <h1>heading4</h1>
     <p id="p1">para 1  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, deserunt.</p>
     <p id="p2">para 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ducimus.</p>
+
+    <script src="/git.js"></script>
 </body>
 </html>
