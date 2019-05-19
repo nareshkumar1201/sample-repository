@@ -1,1 +1,1 @@
-this is sample work on jquery events and also working with git and github cmds to commit,pull,push project to local and remote repositories
+this is sample work on jquery events & working with git and github cmds to commit,pull,push project to local and remote repositories
